@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.formhead{
+  background-color: #cdeaee;
+  width: 85%;
+  height:600px;
+  color: black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.input-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="text"],[type="date"], [type="number"],[type="file"] , [type="password"]
+,[ type="tel"], [ type="time"] , [type="url"] , [type="email"]{
+  margin: 2rem .8rem;
+  height: 25px;
+  width: 200px;
+  border-radius:5px;
+}
+button[type="submit"]{
+  width: 200px;
+  height: 35px;
+  color: white;
+  border-radius:5px;
+}
+
+p{
+  color: red;
+  font-size: 12px;
+}
