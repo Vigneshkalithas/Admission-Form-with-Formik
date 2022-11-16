@@ -37,7 +37,7 @@ function Form() {
           //tel
 
         website: yup.string().url().required("fill the website link"),
-        email: yup.string().email().required("fill email"),
+        email: yup.string().email("fill valid email").required("fill email"),
       });
       
       const { values, handleChange, handleSubmit, errors, handleBlur, touched } =
