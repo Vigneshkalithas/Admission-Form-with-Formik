@@ -152,7 +152,7 @@ function Form() {
               onBlur={handleBlur}
             />
             </label>
-            <p>{errors.time && touched.time ? errors.time : null}</p>
+            {/* <p>{errors.time && touched.time ? errors.time : null}</p> */}
             <label>
                 Tel
                 <input type="tel" 
